@@ -1,0 +1,4 @@
+# Explicit targets only
+github.com:443
+www.python.org:443
+example.com:80

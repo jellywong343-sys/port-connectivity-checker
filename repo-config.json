@@ -1,0 +1,11 @@
+{
+  "name": "port-connectivity-checker",
+  "description": "Check explicit TCP host and port targets with timeouts, concurrency, and JSON or CSV reports.",
+  "topics": [
+    "python",
+    "tcp",
+    "networking",
+    "connectivity",
+    "cli"
+  ]
+}

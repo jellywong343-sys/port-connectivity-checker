@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "port-connectivity-checker"
+version = "1.0.0"
+description = "Check explicit TCP host and port targets with timeouts, concurrency, and JSON or CSV reports."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "jellywong343-sys" }]
+dependencies = []
+keywords = ["python","tcp","networking","connectivity","cli"]
+
+[project.scripts]
+port-check = "port_connectivity_checker.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
